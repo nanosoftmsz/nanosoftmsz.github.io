@@ -554,6 +554,11 @@ input, textarea, select {
 /* 3. hero */
 .hero_area {
 	position: relative;
+	/* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://firebasestorage.googleapis.com/v0/b/garments-maker.appspot.com/o/bg.jpg?alt=media&token=8c07b332-5046-4f4d-897e-a9ffc4f917e8);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
 }
 .hero_area .hero_wrap {
 	display: flex;
@@ -2593,6 +2598,9 @@ blockquote .author_info span{
 }
 .footer_widget .logo {
 	margin-bottom: 35px;
+	font-family: 'Saira Stencil One', cursive;
+	color: #e4e4e4;
+	font-size: 2rem;
 }
 .footer_widget .about_text {
 	padding-right: 60px;
