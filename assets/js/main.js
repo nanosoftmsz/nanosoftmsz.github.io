@@ -186,6 +186,9 @@
 	if ($("#bar3").length) {
 		$('#bar3').barfiller();
 	}
+	if ($("#bar4").length) {
+		$('#bar4').barfiller();
+	}
 	
 	$(function() {
 		$(".progress").each(function() {
