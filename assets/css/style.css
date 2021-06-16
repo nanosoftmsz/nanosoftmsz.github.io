@@ -741,7 +741,7 @@ select {
   z-index: -1;
   position: absolute;
   border-radius: 100%;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   animation: spin 10s infinite linear;
   -webkit-animation: spin 10s infinite linear;
 }
@@ -753,7 +753,7 @@ select {
   content: "";
   position: absolute;
   border-radius: 100%;
-  background-color: #fff;
+  background-color: #ff4545;
   transform: translateY(-50%);
   background-size: cover;
 }
@@ -762,7 +762,10 @@ select {
   height: 620px;
   overflow: hidden;
   border-radius: 100%;
-  background-color: #d5d5d5;
+  background-color: #d8d8d8;
+}
+.circle_image .image_wrap img {
+  margin-left: 4rem;
 }
 
 @keyframes spin {
